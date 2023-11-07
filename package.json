@@ -1,0 +1,13 @@
+{
+  "name": "telegram-assistant-dalle3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "openai": "^4.16.1",
+    "wrangler": "^3.0.0"
+  }
+}
